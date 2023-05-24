@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/img1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginTop="50dp"
+        android:background="#42B546"
+        android:paddingTop="25dp"
+        android:paddingLeft="40dp"
+        android:text="A joke a day keeps the doctor away"
+        android:textColor="@android:color/white"
+        android:textSize="19dp" />
+
+
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="match_parent"
+        android:layout_height="152dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
+        android:textSize="14dp"
+        android:text="A child asked his father, " />
+
+
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="450dp"
+        android:background="#3DCC00"
+        android:text="This is Funny!" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:textSize="13dp"
+        android:paddingLeft="30dp"
+        android:textColor="@android:color/white"
+        android:background="#42B546"
+        android:text="if you joke wrong way, your teeth have to pay. (serious)" />
+
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="148dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="450dp"
+        android:background="#3DCC00"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="15dp"
+        android:text="This is not funny." />
+
+    <TextView
+        android:id="@+id/txt3"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_marginTop="520dp"
+        android:background="#DDF4F2F2"
+        android:padding="10dp"
+        android:text="TextView"
+        android:textColor="#FA777373" />
+
+    <TextView
+        android:id="@+id/txt4"
+        android:layout_width="match_parent"
+        android:layout_height="71dp"
+        android:layout_marginTop="600dp"
+        android:background="#DDF4F2F2"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Copyright 2023 HLS"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="82dp"
+        android:layout_height="49dp"
+        app:srcCompat="@drawable/png" />
+</RelativeLayout>
+
+
+
