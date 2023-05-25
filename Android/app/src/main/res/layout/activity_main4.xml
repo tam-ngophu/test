@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@android:color/white"
     tools:context=".MainActivity4">
 
     <TextView
@@ -29,6 +30,7 @@
         android:layout_marginTop="220dp"
         android:layout_marginEnd="15dp"
         android:layout_marginRight="15dp"
+        android:textColor="@color/black"
         android:layout_marginBottom="15dp"
         android:textSize="14dp"
         android:text="A child asked his father, " />
@@ -39,9 +41,9 @@
         android:id="@+id/btn2m"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="50dp"
+        android:layout_marginLeft="35dp"
         android:layout_marginTop="450dp"
-        android:background="#3DCC00"
+        android:background="@android:color/holo_blue_dark"
         android:text="This is Funny!" />
 
     <TextView
@@ -60,7 +62,7 @@
         android:id="@+id/txt5m"
         android:layout_width="148dp"
         android:layout_height="48dp"
-        android:layout_marginLeft="230dp"
+        android:layout_marginLeft="205dp"
         android:layout_marginTop="450dp"
         android:background="#3DCC00"
         android:gravity="center"
@@ -95,14 +97,14 @@
         android:id="@+id/imageView4m"
         android:layout_width="82dp"
         android:layout_height="49dp"
-        app:srcCompat="@drawable/png" />
+        app:srcCompat="@drawable/png1" />
 
     <ImageView
         android:id="@+id/imageViewm"
         android:layout_width="81dp"
         android:layout_height="49dp"
         android:layout_marginLeft="330dp"
-        app:srcCompat="@drawable/png" />
+        app:srcCompat="@drawable/png2" />
 
     <TextView
         android:id="@+id/textView2m"
