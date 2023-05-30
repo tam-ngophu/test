@@ -36,7 +36,17 @@
         android:textColor="@color/black"
         android:text="text" />
 
-
+<!--    <TextView-->
+<!--        android:id="@+id/btn2"-->
+<!--        android:layout_width="148dp"-->
+<!--        android:layout_height="48dp"-->
+<!--        android:layout_marginLeft="35dp"-->
+<!--        android:layout_marginTop="450dp"-->
+<!--        android:background="@color/design_default_color_primary_dark"-->
+<!--        android:gravity="center"-->
+<!--        android:textColor="@android:color/white"-->
+<!--        android:textSize="15dp"-->
+<!--        android:text="This is Funny!" />-->
 
     <Button
         android:id="@+id/btn2"
@@ -44,7 +54,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="35dp"
         android:layout_marginTop="450dp"
-        android:background="#3DCC00"
+        android:background="@color/design_default_color_primary_dark"
         android:text="This is Funny!" />
 
     <TextView
@@ -74,19 +84,23 @@
     <TextView
         android:id="@+id/txt3"
         android:layout_width="match_parent"
-        android:layout_height="140dp"
-        android:layout_marginTop="550dp"
-        android:background="#DDF4F2F2"
+        android:layout_height="116dp"
+        android:layout_marginTop="600dp"
         android:padding="10dp"
         android:text="TextView"
         android:textColor="#FA777373" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#DDF4F2F2"
+        android:layout_marginTop="600dp"/>
 
     <TextView
         android:id="@+id/txt4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="690dp"
-        android:background="#DDF4F2F2"
+        android:layout_marginTop="720dp"
         android:gravity="top|center"
         android:padding="10dp"
         android:text="Copyright 2023 HLS"

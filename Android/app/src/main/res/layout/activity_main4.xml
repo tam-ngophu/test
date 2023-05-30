@@ -74,18 +74,20 @@
         android:id="@+id/txt3m"
         android:layout_width="match_parent"
         android:layout_height="140dp"
-        android:layout_marginTop="550dp"
-        android:background="#DDF4F2F2"
+        android:layout_marginTop="600dp"
         android:padding="10dp"
         android:text="TextView"
         android:textColor="#FA777373" />
-
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#DDF4F2F2"
+        android:layout_marginTop="600dp"/>
     <TextView
         android:id="@+id/txt4m"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="690dp"
-        android:background="#DDF4F2F2"
+        android:layout_marginTop="720dp"
         android:gravity="top|center"
         android:padding="10dp"
         android:text="Copyright 2023 HLS"
